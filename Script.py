@@ -325,8 +325,6 @@ nama = tab8.text_input("Masukin nama panggilan kalian")
 nama = nama.lower()
 if nama == "arsy":
     tab8.error("MAAF YA ARSYYY AKU GADA DUIT")
-elif nama == "lifty":
-    tab8.success("Selamatt kamu dapet Gopay 50rb dipotong biaya admin")
 elif nama == "":
     tab8.error("Masukin nama panggilan cepet, siapa tau beruntung")
 else:
