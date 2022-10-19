@@ -258,7 +258,7 @@ tab6.markdown("""Cara membaca interpretasi diatas
                 menjadikan kalimat menjadi bersentimen negatif""")
 
 # INTERPRETASI KESELURUHAN ISU PAJAK
-tab7.subheader("Interpretasi Keselurusan Sentimen pada Isu Pajak")
+tab7.subheader("Interpretasi Keseluruhan Sentimen pada Isu Pajak")
 positif_df = pd.read_csv("Positif.csv", sep = ";")
 negatif_df = pd.read_csv("Negatif.csv", sep = ";")
 positif_sum = pd.read_csv("Positif_Jumlah.csv", sep=";")
