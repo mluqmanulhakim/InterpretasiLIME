@@ -323,12 +323,10 @@ tab8.success("Yeaay hadiahnya balon tadi yang lewat. sama salju dikit biar dingi
 tab8.snow()
 nama = tab8.text_input("Masukin nama panggilan kalian")
 nama = nama.lower()
-if nama == "maula":
-    tab8.success("Selamaat kamu dapat gopay 50rb")
+if nama == "arsy":
+    tab8.error("MAAF YA ARSYYY AKU GADA DUIT")
 elif nama == "lifty":
-    tab8.success("Selamat kamu dapat gopay 50rb")
-elif nama == "arsy":
-    tab8.error("APASIH LUU UDAH KAYA JUGAAA")
+    tab8.success("Selamatt kamu dapet Gopay 50rb dipotong biaya admin")
 elif nama == "":
     tab8.error("Masukin nama panggilan cepet, siapa tau beruntung")
 else:
