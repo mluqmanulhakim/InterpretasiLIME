@@ -4,9 +4,7 @@ numpy
 matplotlib
 textblob
 nltk
-re
 seaborn
-collections
 sklearn
 lime
 imblearn
