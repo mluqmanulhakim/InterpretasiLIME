@@ -323,9 +323,13 @@ tab8.success("Yeaay hadiahnya balon tadi yang lewat. sama salju dikit biar dingi
 tab8.snow()
 nama = tab8.text_input("Masukin nama panggilan kalian")
 nama = nama.lower()
-if nama == "arsy":
-    tab8.error("MAAF YA ARSYYY AKU GADA DUIT")
+if nama == "talisha":
+    tab8.success("Love u")
+elif nama == "Luqman's Future wifey":
+    tab8.success("AKU SUKA KAMUU")
+elif nama == "Talisha Eta Ariesya":
+    tab8.success("SUka banget sama kamuuu")
 elif nama == "":
     tab8.error("Masukin nama panggilan cepet, siapa tau beruntung")
 else:
-    tab8.error("Maap, gak dulu")
+    tab8.success("Talisha Calon Istri Luqman.")
