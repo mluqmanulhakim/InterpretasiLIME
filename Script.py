@@ -320,16 +320,3 @@ sentimen positif dari masyarakat khususnya di media sosial twitter.""")
 tab8.balloons()
 tab8.subheader("SELESAI, MAKASI YANG SUDAH MEMBACA")
 tab8.success("Yeaay hadiahnya balon tadi yang lewat. sama salju dikit biar dinginn")
-tab8.snow()
-nama = tab8.text_input("Masukin nama panggilan kalian")
-nama = nama.lower()
-if nama == "talisha":
-    tab8.success("Love u")
-elif nama == "Luqman's Future wifey":
-    tab8.success("AKU SUKA KAMUU")
-elif nama == "Talisha Eta Ariesya":
-    tab8.success("SUka banget sama kamuuu")
-elif nama == "":
-    tab8.error("Masukin nama panggilan cepet, siapa tau beruntung")
-else:
-    tab8.success("Talisha Calon Istri Luqman.")
