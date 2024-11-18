@@ -8,6 +8,7 @@ import numpy as np
 import string
 import nltk
 import re
+import scikit-learn as sklearn
 from sklearn import model_selection
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
