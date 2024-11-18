@@ -8,18 +8,18 @@ import numpy as np
 import string
 import nltk
 import re
-from scikit-learn import model_selection
-from scikit-learn.ensemble import RandomForestClassifier
-from scikit-learn.metrics import confusion_matrix
-from scikit-learn.metrics import classification_report
-from scikit-learn.metrics import accuracy_score
-from scikit-learn.metrics import precision_score
-from scikit-learn.metrics import recall_score
-from scikit-learn.metrics import f1_score
-from scikit-learn.model_selection import train_test_split
-from scikit-learn.feature_extraction.text import TfidfVectorizer
-from scikit-learn.pipeline import Pipeline
-from scikit-learn.pipeline import make_pipeline
+from sklearn import model_selection
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import classification_report
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
+from sklearn.metrics import f1_score
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.pipeline import Pipeline
+from sklearn.pipeline import make_pipeline
 from lime.lime_text import LimeTextExplainer
 from imblearn.over_sampling import SMOTE
 from lime import lime_text
