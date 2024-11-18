@@ -8,7 +8,6 @@ import numpy as np
 import string
 import nltk
 import re
-pip install scikit-learn
 from scikit-learn import model_selection
 from scikit-learn.ensemble import RandomForestClassifier
 from scikit-learn.metrics import confusion_matrix
